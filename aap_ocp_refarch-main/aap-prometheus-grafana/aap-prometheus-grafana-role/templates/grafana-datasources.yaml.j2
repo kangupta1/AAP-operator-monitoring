@@ -4,8 +4,8 @@ metadata:
   name: grafana-datasource
   namespace: {{ prometheus_namespace }}
 spec:
-  datasources:
-    - access: proxy
+  datasource:
+      access: proxy
       editable: true
       isDefault: true
       jsonData:
